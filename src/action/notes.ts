@@ -66,8 +66,7 @@ export const askAIAboutNotesAction = async (
     return "You dont't have any notes yet"
   }
 
-  const formattedNotes = notes
-    .map((note) =>
+  const formattedNotes = notes.map((note)  =>
       `
             Text : ${note.text}
             Created at : ${note.createdAt}
