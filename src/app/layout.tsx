@@ -5,8 +5,9 @@ import { ThemeProvider } from 'next-themes'
 import { Toaster } from '@/components/ui/toaster'
 import Header from '@/components/Header'
 import { SidebarProvider } from '@/components/ui/sidebar'
-import { AppSidebar } from '@/components/AppSideBar'
+
 import NoteProvider from '@/providers/NoteProvider'
+import AppSidebar from '@/components/AppSideBar'
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
